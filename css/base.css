@@ -191,7 +191,8 @@ body {
 }
 
 #featured-slider {
-    max-width: 1360px
+    max-width: 1360px;
+    padding: 0 10px;
 }
 
 .home #featured-slider {
@@ -246,7 +247,7 @@ body {
 }
 
 .thumb-project-container:hover .thumb-overlay {
-    background: rgba(7,21,24,0.8)
+    background: rgba(150,150,150,0.8)
 }
 
 .thumb-project-container:hover .t-text {
@@ -395,6 +396,10 @@ p {
 
     .thumb-project-container {
         width: 50%
+    }
+
+    #thumb-container {
+      margin-top: 15px;
     }
 
     .footer-contents {
