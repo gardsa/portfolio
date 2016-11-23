@@ -135,7 +135,6 @@ body {
 
 .entry-meta {
     text-decoration: none;
-    text-transform: capitalize;
     color: #0b1821
 }
 
@@ -159,6 +158,22 @@ body {
 
 .collabo {
     margin-bottom: 20px
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .post-images ul {
@@ -334,8 +349,8 @@ body {
     column-gap: 20px;
     -moz-column-gap: 20px;
     -webkit-column-gap: 20px;
-    orphans: 5;
-    widows: 5
+    orphans: 4;
+    widows: 4
 }
 
 .two-columns {
