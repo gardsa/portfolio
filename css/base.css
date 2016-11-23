@@ -188,6 +188,10 @@ body {
     margin-bottom: 15px
 }
 
+.post-images img {
+  width: 100%;
+}
+
 .entry-content {
     max-width: 1360px;
     margin-top: 50px
@@ -217,7 +221,7 @@ body {
 #thumb-container {
     max-width: 1360px;
     height: 100%;
-    margin-top: 105px;
+    /*margin-top: 105px;*/
     display: block;
     z-index: 1
 }
@@ -414,7 +418,7 @@ p {
     }
 
     #thumb-container {
-      margin-top: 15px;
+      /*margin-top: 15px;*/
     }
 
     .footer-contents {
