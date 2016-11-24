@@ -290,12 +290,13 @@ body {
 }
 
 .site-footer {
-    background-color: rgba(120, 120, 120, 0.5);
-    height: 150px;
-    overflow: hidden;
-    position: relative;
+    background-color: #0b1821;
+    height: 250px;
+    position: fixed;
     width: 100%;
-    margin-top: 50px;
+    z-index: 0;
+    bottom: 0;
+    left: 0
 }
 
 .footer-contents {
@@ -304,14 +305,14 @@ body {
     margin-right: auto;
     padding-left: 70px;
     padding-right: 70px;
-    height: 150px;
+    height: 250px
 }
 
 .footer-contents-left {
     float: left;
     min-width: 400px;
     width: 30%;
-    height: 100px;
+    height: 175px;
     margin-top: 50px;
     column-count: 2;
     -webkit-column-count: 2;
@@ -450,7 +451,7 @@ p {
     }
 
     #content-wrapper {
-        /*margin-bottom: 0px*/
+        margin-bottom: 0px
     }
 
     .site-footer {
